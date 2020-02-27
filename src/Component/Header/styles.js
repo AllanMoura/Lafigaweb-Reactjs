@@ -12,24 +12,24 @@ export const Headerr = styled.header`
     align-items: center;
     
     p {
-        margin-right: 50px;
+        margin-right: 15px;
     }
 
     p#toDashboard {
-        margin-right: 50px;
+        margin-right: 15px;
         font-size: 13px;
         cursor:pointer;
     }
 
     button {
-        height: 32px;
+        height: 28px;
         border-radius: 5px;
         border: 2px solid #000;
         background: #8080ff;
         margin-right: 10px;
         color: #FFFF;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 10px;
         text-decoration: none;
         display: flex;
         justify-content: center;
@@ -43,14 +43,14 @@ export const Headerr = styled.header`
     }
 
     a {
-        height: 32px;
+        height: 28px;
         border-radius: 5px;
         border: 2px solid #000;
         background: #8080ff;
         margin-right: 10px;
         color: #FFFF;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 10px;
         text-decoration: none;
         display: flex;
         justify-content: center;

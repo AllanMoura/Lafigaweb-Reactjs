@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
 import api from '../../services/api';
-import Suricato from '../../assets/Suricatos.png';
+//import Suricato from '../../assets/Suricatos.png';
 
 import {Form, Container} from './styles';
 
@@ -40,7 +40,6 @@ class SignUp extends Component {
         return (
             <Container>
                 <Form onSubmit={this.handleSignUp}>
-                    <img src={Suricato} alt="Suricatos estão de olho"/>
                     {this.state.error && <p>{this.state.error}</p>}
                     <input type="text" placeholder="Nome do usuário" onChange={e => this.setState({username: e.target.value})} />
                     <input type="password" placeholder="Senha" onChange={ e => this.setState({password: e.target.value})} />
