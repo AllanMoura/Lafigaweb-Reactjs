@@ -37,7 +37,7 @@ class Header extends Component {
             <Headerr>
                 <p>{this.state.username}</p>
                 <p id="toDashboard" onClick={() => this.props.history.push('/dashboard')}>NPCS de LAFIGA</p>
-                <Link to={'/npc/create'}>Adicionar NPC</Link>
+                <Link to={'/npc/create'}>Add NPC</Link>
                 <button onClick={this.DesconnectUser}>Deslogar</button>
             </Headerr>
         );
