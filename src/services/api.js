@@ -4,7 +4,7 @@ import { getToken } from './auth';
 const api = Axios.create({baseURL: "https://lafiga-nts.herokuapp.com/api"});
 
 api.interceptors.request.use(async config =>{
-    const token = getToken();
+    const token = getToken(); 
     if(token){
         config.headers.token = token;
     }
